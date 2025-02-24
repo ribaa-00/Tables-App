@@ -1,0 +1,60 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.614), rgba(255, 166, 0, 0.331)), url(./image/image.ss.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 520px;
+    background-color: rgba(137, 43, 226, 0.671);
+}
+input {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.button {
+    width: 80px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: 2px;
+    font-weight: bolder;
+    border: none;
+}
+button:hover {
+    background-color: rgba(128, 0, 0, 0.231);
+    color: black;
+    transition: 0.5s;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main {
+    width: 160px;
+    height: 260px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.838);
+    padding: 10px;
+    text-align: center;
+    overflow: scroll;
+}
